@@ -13,7 +13,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+     
        <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
       {/* TODO: Implement Routing Here */}
       
       {/* <Home /> */}
-      </BrowserRouter>
+      
     </div>
   );
 }
